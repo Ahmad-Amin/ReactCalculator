@@ -11,22 +11,25 @@ class MainCal extends Component{
         operation:''
     }
 
+    buttonClicked = (buttonVal)=>{
+        console.log(buttonVal);
+    }
 
     render(){
         return (
             <Fragment>
                 <div className="MainCalBody">
                     <input  className = "textField" type="text"/>
-                    <div className="CalBlock">1</div>
-                    <div className="CalBlock">2</div>
-                    <div className="CalBlock">3</div>
-                    <div className="CalBlock">4</div>
-                    <div className="CalBlock">5</div>
-                    <div className="CalBlock">6</div>
-                    <div className="CalBlock">7</div>
-                    <div className="CalBlock">8</div>
-                    <div className="CalBlock">9</div>
-                    <div className="CalBlock">0</div>
+                    <div className="CalBlock" onClick={()=>this.buttonClicked(1)}>1</div>
+                    <div className="CalBlock" onClick={()=>this.buttonClicked(2)}>2</div>
+                    <div className="CalBlock" onClick={()=>this.buttonClicked(3)}>3</div>
+                    <div className="CalBlock" onClick={()=>this.buttonClicked(4)}>4</div>
+                    <div className="CalBlock" onClick={()=>this.buttonClicked(5)}>5</div>
+                    <div className="CalBlock" onClick={()=>this.buttonClicked(6)}>6</div>
+                    <div className="CalBlock" onClick={()=>this.buttonClicked(7)}>7</div>
+                    <div className="CalBlock" onClick={()=>this.buttonClicked(8)}>8</div>
+                    <div className="CalBlock" onClick={()=>this.buttonClicked(9)}>9</div>
+                    <div className="CalBlock" onClick={()=>this.buttonClicked(0)}>0</div>
                     <div className="CalBlock CalEqual">=</div>
 
                 </div>
