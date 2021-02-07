@@ -1,0 +1,31 @@
+
+.CalBlock{
+    background-color: #edeff8;
+    width: 30%;
+    height: 40px;
+    text-align: center; 
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+
+    font-size: 18px;
+    color: #8390a4;
+
+    transition: all 0.4s;
+}
+
+.Operations .CalBlock{
+    background-color: #edeff8;
+    width: 100%;
+}
+
+.CalBlock:hover{
+    box-shadow: 1px 2px 3px rgba(0,0,0,0.5);
+}
+
+.CalEqual{
+    width: 63%;
+}
