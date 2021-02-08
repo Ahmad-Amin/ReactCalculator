@@ -1,5 +1,7 @@
 # ReactCalculator
-This is a Simple Calculator, that i created using one of the most famous javscript library i.e React.js. [A project by React begineer]
+This is a Simple Calculator, that i created using one of the most famous javscript library i.e React.js. I use React HOOKS for the state management. This is my first time of using
+React hooks to manage state ina functional components.
+
 <img src="https://github.com/Ahmad-Amin/ReactCalculator/blob/main/images/calBody.PNG?raw=true">
 
 This is my first project, entirely written in HTML/CSS/JavaScript. It used one of the most popular library of JavaScript i.e. React.
