@@ -1,15 +1,18 @@
-import React,{useState} from 'react';
+import React,{useState,useContext} from 'react';
 import {Fragment} from 'react';
 import './MainCal.css'
 import Button from '../components/Button';
+import AuthContext from '../AuthContext/AuthContext';
 
 const MainCal = () => {
     const [value,setValue]=useState("0");
     const [memory, setMemory] = useState(null);
     const [operator, setOperator] = useState(null);
 
+    const context = useContext(AuthContext);
     const buttonClickedHandler = content => {
 
+        console.log(context.text);
         if(content === "c"){
             setValue("0");
             setMemory(null);
