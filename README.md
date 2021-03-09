@@ -17,3 +17,4 @@ The color palette that is used for this design is based on very simplistic desig
 
 <img src="https://github.com/Ahmad-Amin/ReactCalculator/blob/main/images/colors.PNG?raw=true">
 
+You can view the live demo on this link: https://ahmad-amin.github.io/ReactCalculator/
